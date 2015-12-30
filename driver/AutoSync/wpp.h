@@ -1,6 +1,26 @@
 #pragma once
 
 
+/*
+WPP Logging Instructions: Create c:\temp folder on host machine before running the below commands.
+
+Enable:
+tracelog -start echowpp -guid #84bdb2e9-829e-41b3-b891-02f454bc2baa -f c:\temp\testtrace.etl -flag 5 -level 0xFFFF
+
+Disable:
+tracelog -stop echowpp
+
+Decode:
+tracefmt c:\Temp\testtrace.etl -pdb c:\Temp\echo.pdb -o c:\Temp\echowpp.txt -nosummary
+
+*/
+
+
+
+
+
+
+
 #define WPP_CONTROL_GUIDS                                          \
     WPP_DEFINE_CONTROL_GUID(                                       \
         myDriverTraceGuid, (84bdb2e9,829e,41b3,b891,02f454bc2baa), \
