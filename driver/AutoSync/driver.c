@@ -81,6 +81,7 @@ Return Value:
 
 	TraceInfo(TRACE_ALL, "TraceInfo:: Hello.");
 	DoTraceMessage(TRACE_ALL, "DoTraceMessage:: Hello");
+	LogCrit("LogCrit:: Hello");
 
     WDF_DRIVER_CONFIG_INIT(&config,
                         EchoEvtDeviceAdd
