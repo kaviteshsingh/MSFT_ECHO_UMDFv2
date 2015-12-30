@@ -102,6 +102,9 @@
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\exe</AdditionalIncludeDirectories>
       <ExceptionHandling>
       </ExceptionHandling>
+      <WppEnabled>true</WppEnabled>
+      <WppPreprocessorDefinitions>WPP_CHECK_INIT;WPP_DLL</WppPreprocessorDefinitions>
+      <WppScanConfigurationData>wpp.h</WppScanConfigurationData>
     </ClCompile>
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\exe</AdditionalIncludeDirectories>
@@ -118,6 +121,9 @@
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\exe</AdditionalIncludeDirectories>
       <ExceptionHandling>
       </ExceptionHandling>
+      <WppEnabled>true</WppEnabled>
+      <WppPreprocessorDefinitions>WPP_CHECK_INIT;WPP_DLL</WppPreprocessorDefinitions>
+      <WppScanConfigurationData>wpp.h</WppScanConfigurationData>
     </ClCompile>
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);..\..\exe</AdditionalIncludeDirectories>
