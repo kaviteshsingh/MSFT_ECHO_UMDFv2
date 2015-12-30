@@ -80,7 +80,7 @@ Return Value:
 	WPP_INIT_TRACING(DriverObject, RegistryPath);
 
 	//TraceInfo(TRACE_ALL, "Hello.");
-	DoTraceMessage(TRACE_ALL, "Hello");
+	//DoTraceMessage(TRACE_ALL, "Hello");
 
     WDF_DRIVER_CONFIG_INIT(&config,
                         EchoEvtDeviceAdd
