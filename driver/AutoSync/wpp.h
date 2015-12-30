@@ -25,12 +25,12 @@
 // Note the double parentheses for the KdPrint message, for compatiblility with the KdPrintEx function.
 //
 // begin_wpp config
-// FUNC TraceCrit{LEVEL=TRACE_LEVEL_CRITICAL}((FLAGS, MSG, ...));
-// FUNC TraceErr{LEVEL=TRACE_LEVEL_ERROR}((FLAGS, MSG, ...));
-// FUNC TraceWarn{LEVEL=TRACE_LEVEL_WARNING}((FLAGS, MSG, ...));
-// FUNC TraceInfo{LEVEL=TRACE_LEVEL_INFORMATION}((FLAGS, MSG, ...));
-// FUNC TraceVerb{LEVEL=TRACE_LEVEL_VERBOSE}((FLAGS, MSG, ...));
-// FUNC Logger{LEVEL=TRACE_LEVEL_INFORMATION, FLAGS=TRACE_DRIVER}((MSG, ...));
+// FUNC TraceCrit{LEVEL=TRACE_LEVEL_CRITICAL}(FLAGS, MSG, ...);
+// FUNC TraceErr{LEVEL=TRACE_LEVEL_ERROR}(FLAGS, MSG, ...);
+// FUNC TraceWarn{LEVEL=TRACE_LEVEL_WARNING}(FLAGS, MSG, ...);
+// FUNC TraceInfo{LEVEL=TRACE_LEVEL_INFORMATION}(FLAGS, MSG, ...);
+// FUNC TraceVerb{LEVEL=TRACE_LEVEL_VERBOSE}(FLAGS, MSG, ...);
+// FUNC Logger{LEVEL=TRACE_LEVEL_INFORMATION, FLAGS=TRACE_DRIVER}((MSG, ...);
 // end_wpp
 //
 
